@@ -1,9 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Steps to reproduce bug
+
+
+    git clone https://github.com/djsmentya/spree-error-test.git
+    cd spree-error-test
+    bundle install
+    bundle exec rake db:migrate
+    bundle exec rake db:seed
+    bundle exec rake spree_sample:load
 
 * Ruby version
 
